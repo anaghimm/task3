@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="background">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
+</head>
+<header>
+    <h2><b>Registration Form</b></h2>
+    <h3>Fill up the form with correct values</h3>
+</header>
+<body>
+    <form action="success.html">
+        <label for="name" class="lab1"><b>Name*</b></label>
+        <label for="lastname" class="lab2"><b>Last name*</b></label>
+        <br>
+        <input type="text" id="name" required placeholder="Enter your name">
+        <input type="text" id="lastname" required placeholder="Enter your last name">
+        <br><br>
+        <label for="email"><b>Email*</b></label>
+        <br>
+        <input type="email" id="email" required placeholder="Enter your email">
+        <br><br>
+        <label for="tel"><b>Phone Number*</b></label>
+        <br>
+        <input id="tel" type="tel" required placeholder="Enter your phone number">
+        <br><br>
+        <label for="password"><b>Password*</b></label>
+        <br>
+        <input id="password" type="password" required placeholder="Enter your password">
+        <br><br>
+        <label for="passwordconfirm"><b>Confirm Password*</b></label>
+        <br>
+        <input id="passwordconfirm" type="password" required placeholder="confirm your password">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
